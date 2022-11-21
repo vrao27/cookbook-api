@@ -1,0 +1,1770 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "kitchenGroup4",
+        "type": "ContentType",
+        "createdAt": "2022-11-02T15:46:01.982Z",
+        "updatedAt": "2022-11-08T15:51:51.570Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-11-08T15:51:51.570Z",
+        "firstPublishedAt": "2022-11-02T15:46:02.401Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Kitchen Group4",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "ingredients",
+          "name": "Ingredients",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "directions",
+          "name": "Directions",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "id",
+          "name": "id",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "9i6u4epu9w5w",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2022-11-02T15:46:02.517Z",
+        "createdBy": {
+          "sys": {
+            "id": "0j1ZXefXjDX907k79Av5mP",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-11-08T15:51:52.213Z",
+        "updatedBy": {
+          "sys": {
+            "id": "03xMneQipcZcgDVzdewqna",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "kitchenGroup4",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "ingredients",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "directions",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "id",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "7ked5tk9oGCN1NZPZuEiAf",
+        "type": "Entry",
+        "createdAt": "2022-11-02T15:47:02.494Z",
+        "updatedAt": "2022-11-08T15:52:36.708Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2022-11-08T15:52:36.708Z",
+        "firstPublishedAt": "2022-11-02T15:52:51.487Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kitchenGroup4"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Biang Biang Mian with Chilli Oil"
+        },
+        "description": {
+          "en-US": "Thick, broad, hand-pulled noodles seasoned with chilli, garlic and Sichuan pepper, Xi’an Biang Biang noodles offer a delectable taste and texture."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2o7b4hhK5BGid3ieOI5tI"
+            }
+          }
+        },
+        "ingredients": {
+          "en-US": "- 300 g all-purpose flour , 2 cups\n- 2 g salt\n- 130 ml to 140ml water\n- 2 tablespoons chili powder+pinch of salt\n- 2 tablespoons light soy sauce\n- 2 tablespoons vinegar\n- 2 garlic clove , minced\n- 2 green onion , minced\n- green vegetable for blanching\n- 2 tablespoons vegetable cooking oil\n- oil for brushing\n"
+        },
+        "directions": {
+          "en-US": "Step 1\n\nIn a large bowl, mix salt with flour. And stir in water by batches. I usually add 130ml firstly and then see whether the dough is too tough to knead. Less water indicates a chewier taste. Grasp everything by hand and continue kneading the dough until smooth. Forcefully please or resort to a standard mixer. Cover with plastic wrapper and rest for 20 minutes.\n\nStep 2\n\nKnead the dough again for several minutes until the surface is really smooth as I show in the video. Cover with plastic wrapper again and rest for another 15-20 minutes\n\nStep 3\n\nPrepare a plate and brush some vegetable oil on surface. And then cut the noodle dough into halves and each half into 6 portions (as equal as possible and cover the other half with plastic wrapper to avoid drying out ). So we will end up with 12 portions. Shape each one into a long log and brush oil around. Cover with plastic wrapper and let the noodle strip log rest for 1 hour.\n\nStep 4\n\nTake one portion out, flat it and roll out to a rectangle. Press the center with a chopstick so we can separate the noodles later. Hold the two ends of the noodle strip and smash it against the operating board. You can slightly stretch it during the smashing process. But do not hurry; slow down so that you will not break it.\n\nStep 5\n\nAnd the separate the noodles along with the chop sticker trace.\n\nStep 6\n\nBoil water in pot and add noodles in. If you feel they shrink, stretch each strip slightly. Bring the large pot to boil.\n\nStep 7\n\nAdd cold water once after it boils again. And then add green vegetable to blanch. The whole process of cooking lasts for around 4 minutes. Transfer out to serving bowl.\n\nStep 8\n\nIn the mean time, heat up 2 tablespoons of cooking oil in a small pot until slightly smoky.\n\nStep 9\n\nPlace garlic, green onion and chili peppers on top and pour the hot oil over the noodles (mainly on the chili powders). Add soy sauce and vinegar and combine well.\n"
+        },
+        "id": {
+          "en-US": 3
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "6ACK3ODAqapaoPT3JGBOmT",
+        "type": "Entry",
+        "createdAt": "2022-11-02T15:53:14.168Z",
+        "updatedAt": "2022-11-08T15:52:44.069Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2022-11-08T15:52:44.069Z",
+        "firstPublishedAt": "2022-11-02T15:53:59.604Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kitchenGroup4"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pork Dumplings"
+        },
+        "description": {
+          "en-US": "These tasty steamed pork dumplings make a perfect appetizer for a party or you can serve them as a main dish.  Serve with hoisin sauce, hot Chinese-style mustard, and toasted sesame seeds."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5bpxe1kYkjpCg4vibLwEPK"
+            }
+          }
+        },
+        "ingredients": {
+          "en-US": "- 100 (3.5 inch square) wonton wrappers\n\n- 1 ¾ pounds ground pork\n\n- 1 tablespoon minced fresh ginger root\n\n- 4 cloves garlic, minced\n\n- 2 tablespoons thinly sliced green onion\n\n- 4 tablespoons soy sauce\n\n- 3 tablespoons sesame oil\n\n- 1 egg, beaten\n\n- 5 cups finely shredded Chinese cabbage\n"
+        },
+        "directions": {
+          "en-US": "Step 1\n\nIn a large bowl, combine the pork, ginger, garlic, green onion, soy sauce, sesame oil, egg and cabbage. Stir until well mixed.\n\nStep 2\n\nPlace 1 heaping teaspoon of pork filling onto each wonton skin. Moisten edges with water and fold edges over to form a triangle shape. Roll edges slightly to seal in filling. Set dumplings aside on a lightly floured surface until ready to cook.\n\nStep 3\n\nArrange dumplings in a covered bamboo or metal steamer so they don't touch to prevent them from sticking together; steam for 15 minutes, or until pork is cooked through."
+        },
+        "id": {
+          "en-US": 4
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "3aeqXqGqHmYw7QvKE9DAPn",
+        "type": "Entry",
+        "createdAt": "2022-11-02T15:54:11.971Z",
+        "updatedAt": "2022-11-08T15:52:52.150Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2022-11-08T15:52:52.150Z",
+        "firstPublishedAt": "2022-11-02T15:54:59.116Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kitchenGroup4"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sausage, Peppers, Onions, and Potato Bake"
+        },
+        "description": {
+          "en-US": "This sausage and potato bake is an Italian comfort food classic! The smell of this cooking in my kitchen transports me back to playing on the street in front of my Papa's house in Brooklyn."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5d7kJz0GzClg6pRuPJ3u62"
+            }
+          }
+        },
+        "ingredients": {
+          "en-US": "- 2 teaspoons olive oil\n- 2 pounds Italian sausage links, cut into 2-inch pieces\n- ¼ cup olive oil\n- 4 large potatoes, peeled and thickly sliced\n- 2 large green bell peppers, seeded and cut into wedge\n- 2 large red bell peppers, seeded and cut into wedges\n- 3 large onions, cut into wedges\n- ½ cup white wine\n- ½ cup chicken stock\n- 1 teaspoon Italian seasoning\n- salt and freshly ground black pepper to taste"
+        },
+        "directions": {
+          "en-US": "Step 1\n\nPreheat oven to 400 degrees F (200 degrees C).\n\nStep 2\n\nHeat 2 teaspoons olive oil in a large skillet over medium heat, and cook and stir the sausage until browned, 5 to 10 minutes. Transfer cooked sausage to a large baking dish.\n\nStep 3\n\nPour 1/4 cup of olive oil into the skillet, and cook potatoes, stirring occasionally, until browned, about 10 minutes. Place the potatoes into the baking dish, leaving some oil in the skillet.\n\nStep 4\n\nCook and stir green and red peppers and onions in the hot skillet until they are beginning to soften, about 5 minutes. Add the vegetables to the baking dish.\n\nStep 5\n\nPour wine and chicken stock over the vegetables and sausage, and sprinkle with Italian seasoning, salt, and pepper. Gently stir sausage, potatoes, and vegetables togethe\n\nStep 6\n\nBake in the preheated oven until hot and bubbling, 20 to 25 minutes. Serve hot."
+        },
+        "id": {
+          "en-US": 5
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "4PxcTUCAFbrKlWhJO20bZ5",
+        "type": "Entry",
+        "createdAt": "2022-11-02T15:55:09.844Z",
+        "updatedAt": "2022-11-08T15:52:30.450Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2022-11-08T15:52:30.450Z",
+        "firstPublishedAt": "2022-11-02T15:55:51.236Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "03xMneQipcZcgDVzdewqna"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kitchenGroup4"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Fluffy Pancakes"
+        },
+        "description": {
+          "en-US": "Looking for a fluffy pancake recipe? This one is just right! Topped with syrup or strawberries and whipped cream, they are impossible to resist."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6034mIDmSOrEyfbpC4s9PP"
+            }
+          }
+        },
+        "ingredients": {
+          "en-US": "- ¾ cup milk\n- 2 tablespoons white vinegar\n- 1 cup all-purpose flour\n- 2 tablespoons white sugar\n- 1 teaspoon baking powder\n- ½ teaspoon baking soda\n- ½ teaspoon salt\n- 1 egg\n- 2 tablespoons butter, melted\n- cooking spray"
+        },
+        "directions": {
+          "en-US": "Step 1\n\nCombine milk with vinegar in a medium bowl and set aside for 5 minutes to \"sour\".\n\nStep 2\n\nCombine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into \"soured\" milk. Pour the flour mixture into the milk mixture and whisk until lumps are gone.\n\nStep 3\n\nHeat a large skillet over medium heat, and coat it with cooking spray. Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles form and the edges are dry, about 2 to 3 minutes. Flip with a spatula, and cook until browned on the other side. Repeat with remaining batter."
+        },
+        "id": {
+          "en-US": 2
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "1haPALdEf1kUTr29x9zX41",
+        "type": "Entry",
+        "createdAt": "2022-11-02T15:56:01.787Z",
+        "updatedAt": "2022-11-08T21:02:51.035Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2022-11-08T21:02:51.035Z",
+        "firstPublishedAt": "2022-11-02T15:56:36.991Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kitchenGroup4"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Baked Ziti"
+        },
+        "description": {
+          "en-US": "For Sunday suppers, team dinners, or dinner drop-offs for a friend in need, this crowd-pleasing baked ziti with sausage is hearty, rich, and flavorful. "
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "79pza4d1oJQhzgwSD0Dnk0"
+            }
+          }
+        },
+        "ingredients": {
+          "en-US": "- 1 pound dry ziti pasta\n- 1 onion, chopped\n- 1 pound lean ground beef\n- 2 (26 ounce) jars spaghetti sauce\n- 6 ounces provolone cheese, sliced\n- 1 ½ cups sour cream\n- 6 ounces mozzarella cheese, shredded\n- 2 tablespoons grated Parmesan cheese"
+        },
+        "directions": {
+          "en-US": "Step 1\n\nBring a large pot of lightly salted water to a boil. Add ziti pasta, and cook until al dente, about 8 minutes; drain.\n\nStep 2\n\nMeanwhile, brown ground beef and onion in a large skillet over medium heat; stir in spaghetti sauce and simmer for 15 minutes.\n\nStep 3\n\nPreheat the oven to 350 degrees F (175 degrees C). Butter a 9x13-inch baking dish.\n\nStep 4\n\nSpread 1/2 of the ziti in the bottom of the prepared dish; top with Provolone cheese, sour cream, 1/2 of the meat sauce, remaining ziti, mozzarella cheese, and remaining meat sauce. Top with grated Parmesan cheese.\n\nStep 5\n\nBake in the preheated oven until heated through and cheeses have melted, about 30 minutes."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "12jRt2JCkR6wgMpw2OaAHz",
+        "type": "Entry",
+        "createdAt": "2022-11-02T15:56:43.871Z",
+        "updatedAt": "2022-11-08T21:15:20.514Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2022-11-08T21:15:20.514Z",
+        "firstPublishedAt": "2022-11-02T15:57:20.548Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kitchenGroup4"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Best Thai Coconut Soup"
+        },
+        "description": {
+          "en-US": "This Thai coconut soup is full of authentic, bold, and delicious Thai flavors. This is the best Thai soup recipe out there — you won't be disappointed with this one! "
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "37CYZQevUeJ7ORgpe9HeeV"
+            }
+          }
+        },
+        "ingredients": {
+          "en-US": "- 1 tablespoon vegetable oil\n- 2 tablespoons grated fresh ginger\n- 2 teaspoons red curry paste\n- 1 stalk lemon grass, minced\n- 4 cups chicken broth\n- 3 tablespoons fish sauce\n- 1 tablespoon light brown sugar\n- 3 (13.5 ounce) cans coconut milk\n- ½ pound fresh shiitake mushrooms, sliced\n- 1 pound medium shrimp - peeled and deveined\n- 2 tablespoons fresh lime juice\n- salt to taste\n- ¼ cup chopped fresh cilantro"
+        },
+        "directions": {
+          "en-US": "Step 1\n\nHeat oil in a large pot over medium heat. Add ginger, curry paste, and lemongrass; cook and stir in the hot oil for 1 minute.\n\nStep 2\n\nGradually stir in chicken broth, then stir in fish sauce and brown sugar; reduce heat to low and simmer for 15 minutes.\n\nStep 3\n\nAdd coconut milk and mushrooms; cook and stir until mushrooms are soft, about 5 minutes.\n\nStep 4\n\nAdd shrimp; cook until no longer translucent, about 5 minutes. Stir in lime juice; season with salt and garnish with cilantro.\n"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "6aEvHuA6hfWkVLIogETvSa",
+        "type": "Asset",
+        "createdAt": "2022-10-31T19:19:07.618Z",
+        "updatedAt": "2022-10-31T19:35:40.120Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-10-31T19:35:40.120Z",
+        "firstPublishedAt": "2022-10-31T19:20:16.648Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Best Thai Coconut Soup"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/6aEvHuA6hfWkVLIogETvSa/c7fdfa407f17806d89fe01b2c6f4aac4/The_Best_Thai_Coconut_Soup.jpeg",
+            "details": {
+              "size": 117091,
+              "image": {
+                "width": 1000,
+                "height": 1000
+              }
+            },
+            "fileName": "The Best Thai Coconut Soup.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "183t8X7rqJ1NI4UI1kNwK0",
+        "type": "Asset",
+        "createdAt": "2022-10-31T19:21:18.327Z",
+        "updatedAt": "2022-10-31T19:36:04.067Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-10-31T19:36:04.067Z",
+        "firstPublishedAt": "2022-10-31T19:22:08.700Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Biang Biang Mian with Chilli Oil"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/183t8X7rqJ1NI4UI1kNwK0/e27991361a27e6f9b54f18871e499efd/Biang_Biang_Mian_with_Chilli_Oil.png",
+            "details": {
+              "size": 1046749,
+              "image": {
+                "width": 866,
+                "height": 585
+              }
+            },
+            "fileName": "Biang Biang Mian with Chilli Oil.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "3KHhlUzPu3a6F5aWKxUKvy",
+        "type": "Asset",
+        "createdAt": "2022-10-31T19:22:26.052Z",
+        "updatedAt": "2022-10-31T19:36:21.464Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-10-31T19:36:21.464Z",
+        "firstPublishedAt": "2022-10-31T19:22:55.474Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Baked Ziti"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/3KHhlUzPu3a6F5aWKxUKvy/573e28f01df1f54c72bd54b487176ffd/Baked_Ziti.png",
+            "details": {
+              "size": 1621351,
+              "image": {
+                "width": 1493,
+                "height": 1247
+              }
+            },
+            "fileName": "Baked Ziti.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "2WiCDsudyHEQy0tvpnhlxT",
+        "type": "Asset",
+        "createdAt": "2022-10-31T19:23:21.008Z",
+        "updatedAt": "2022-10-31T19:36:42.650Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-10-31T19:36:42.650Z",
+        "firstPublishedAt": "2022-10-31T19:23:54.036Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Fluffy Pancakes"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/2WiCDsudyHEQy0tvpnhlxT/0fa61e3ffe3f15236722548b713acf5b/Fluffy_Pancakes.png",
+            "details": {
+              "size": 637387,
+              "image": {
+                "width": 942,
+                "height": 934
+              }
+            },
+            "fileName": "Fluffy Pancakes.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "1gepfeMlQDUmhWVsIltMJe",
+        "type": "Asset",
+        "createdAt": "2022-10-31T19:24:13.694Z",
+        "updatedAt": "2022-10-31T19:36:58.150Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-10-31T19:36:58.150Z",
+        "firstPublishedAt": "2022-10-31T19:24:44.751Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sausage, Peppers, Onions, and Potato Bake"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/1gepfeMlQDUmhWVsIltMJe/f285cdf278ba26a672b8d5633669bc6c/Sausage__Peppers__Onions__and_Potato_Bake.png",
+            "details": {
+              "size": 3277781,
+              "image": {
+                "width": 1500,
+                "height": 1500
+              }
+            },
+            "fileName": "Sausage, Peppers, Onions, and Potato Bake.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "4KHxhZBd5Kmf7n4byM6pWl",
+        "type": "Asset",
+        "createdAt": "2022-10-31T19:25:02.139Z",
+        "updatedAt": "2022-10-31T19:37:11.397Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2022-10-31T19:37:11.397Z",
+        "firstPublishedAt": "2022-10-31T19:25:30.476Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pork Dumplings"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/4KHxhZBd5Kmf7n4byM6pWl/85b37bfe5ae8ed6fb341aae884386df8/Pork_Dumplings.png",
+            "details": {
+              "size": 2387340,
+              "image": {
+                "width": 1500,
+                "height": 1125
+              }
+            },
+            "fileName": "Pork Dumplings.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "1MYOs5s2Cj211uUzFwEyu4",
+        "type": "Asset",
+        "createdAt": "2022-11-02T15:48:59.888Z",
+        "updatedAt": "2022-11-02T15:52:25.262Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2022-11-02T15:52:25.262Z",
+        "firstPublishedAt": "2022-11-02T15:52:25.262Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "bg"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/1MYOs5s2Cj211uUzFwEyu4/7fbb9e816aaf1416615e9bedad91ccc4/bg.jpg",
+            "details": {
+              "size": 350724,
+              "image": {
+                "width": 1500,
+                "height": 1000
+              }
+            },
+            "fileName": "bg.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "37CYZQevUeJ7ORgpe9HeeV",
+        "type": "Asset",
+        "createdAt": "2022-11-02T16:47:35.734Z",
+        "updatedAt": "2022-11-08T15:25:46.845Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-11-08T15:25:46.845Z",
+        "firstPublishedAt": "2022-11-02T16:47:47.533Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Best Thai Coconut Soup"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/37CYZQevUeJ7ORgpe9HeeV/bef3529c144abe42c469817ae8271996/The_Best_Thai_Coconut_Soup.jpeg",
+            "details": {
+              "size": 117091,
+              "image": {
+                "width": 1000,
+                "height": 1000
+              }
+            },
+            "fileName": "The Best Thai Coconut Soup.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "79pza4d1oJQhzgwSD0Dnk0",
+        "type": "Asset",
+        "createdAt": "2022-11-02T16:48:05.371Z",
+        "updatedAt": "2022-11-08T15:31:59.890Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-11-08T15:31:59.890Z",
+        "firstPublishedAt": "2022-11-02T16:48:32.229Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Baked Ziti"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/79pza4d1oJQhzgwSD0Dnk0/af54ce5aff72e3e913941982a35c136d/Baked_Ziti.png",
+            "details": {
+              "size": 1621351,
+              "image": {
+                "width": 1493,
+                "height": 1247
+              }
+            },
+            "fileName": "Baked Ziti.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "6034mIDmSOrEyfbpC4s9PP",
+        "type": "Asset",
+        "createdAt": "2022-11-02T16:48:48.852Z",
+        "updatedAt": "2022-11-08T15:31:18.655Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-11-08T15:31:18.655Z",
+        "firstPublishedAt": "2022-11-02T16:48:59.408Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Fluffy Pancakes"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/6034mIDmSOrEyfbpC4s9PP/78dd27ec85cb816d22bf82dbfd0eccfc/Fluffy_Pancakes.png",
+            "details": {
+              "size": 637387,
+              "image": {
+                "width": 942,
+                "height": 934
+              }
+            },
+            "fileName": "Fluffy Pancakes.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "5d7kJz0GzClg6pRuPJ3u62",
+        "type": "Asset",
+        "createdAt": "2022-11-02T16:49:19.254Z",
+        "updatedAt": "2022-11-08T15:26:58.112Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-11-08T15:26:58.112Z",
+        "firstPublishedAt": "2022-11-02T16:49:30.809Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sausage, Peppers, Onions, and Potato Bake"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/5d7kJz0GzClg6pRuPJ3u62/de53b9866133877be5f24a4f350f00fc/Sausage__Peppers__Onions__and_Potato_Bake.png",
+            "details": {
+              "size": 3277781,
+              "image": {
+                "width": 1500,
+                "height": 1500
+              }
+            },
+            "fileName": "Sausage, Peppers, Onions, and Potato Bake.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "5bpxe1kYkjpCg4vibLwEPK",
+        "type": "Asset",
+        "createdAt": "2022-11-02T16:49:50.673Z",
+        "updatedAt": "2022-11-08T15:27:57.396Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-11-08T15:27:57.396Z",
+        "firstPublishedAt": "2022-11-02T16:49:59.590Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pork Dumplings"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/5bpxe1kYkjpCg4vibLwEPK/fc0f5c3f607e22648952bd5b43e14d87/Pork_Dumplings.png",
+            "details": {
+              "size": 2387340,
+              "image": {
+                "width": 1500,
+                "height": 1125
+              }
+            },
+            "fileName": "Pork Dumplings.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "id": "2o7b4hhK5BGid3ieOI5tI",
+        "type": "Asset",
+        "createdAt": "2022-11-02T16:50:18.274Z",
+        "updatedAt": "2022-11-08T15:28:50.743Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-11-08T15:28:50.743Z",
+        "firstPublishedAt": "2022-11-02T16:50:32.725Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Biang Biang Mian with Chilli Oil"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9i6u4epu9w5w/2o7b4hhK5BGid3ieOI5tI/2481073b74d74588c5b96148b8a2876c/Biang_Biang_Mian_with_Chilli_Oil.png",
+            "details": {
+              "size": 1046749,
+              "image": {
+                "width": 866,
+                "height": 585
+              }
+            },
+            "fileName": "Biang Biang Mian with Chilli Oil.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "0qa7lKasPGTp2Po5jGpQSF",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "e4b4c80e-3bbd-4087-a0e6-fa9280c7aa2c"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "createdAt": "2022-10-31T19:13:41Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedAt": "2022-10-31T19:13:41Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "0qj6T12YhHybIhmaoRwA1D",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9i6u4epu9w5w"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "createdAt": "2022-10-31T19:13:41Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0j1ZXefXjDX907k79Av5mP"
+          }
+        },
+        "updatedAt": "2022-10-31T19:13:41Z"
+      }
+    }
+  ]
+}
