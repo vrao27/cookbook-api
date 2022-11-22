@@ -3,8 +3,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 const fileSystem = require("fs");
 const axios = require("axios");
-//const myRecipes = require("./myRecipes.json");
-const NewRecipes = require("./NewRecipes.json");
+const MyRecipes = require("./MyRecipes.json");
+//const NewRecipes = require("./NewRecipes.json");
 
 //here we define an array with multiple recipes
 // const recipes = [
@@ -20,8 +20,8 @@ const NewRecipes = require("./NewRecipes.json");
 //Here we define another route to get all the recipes
 
 app.get("/", (req, res) => {
-  console.log(NewRecipes);
-  res.json(NewRecipes);
+  console.log(MyRecipes);
+  res.json(MyRecipes);
 });
 
 //create a route woth a dynamic id to get single recipes
