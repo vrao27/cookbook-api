@@ -4,22 +4,12 @@ const port = process.env.PORT || 3000;
 const fileSystem = require("fs");
 const axios = require("axios");
 const MyRecipes = require("./MyRecipes.json");
-//const NewRecipes = require("./NewRecipes.json");
 
-//here we define an array with multiple recipes
-// const recipes = [
-//   { id: 1, name: "recipe1" },
-//   { id: 2, name: "recipe2" },
-//   { id: 3, name: "recipe3" },
-//   { id: 4, name: "recipe4" },
-//   { id: 5, name: "recipe5" },
-//   { id: 6, name: "recipe6" },
-// ];
 
 //we pass a function with 2 arguments req and response
 //Here we define another route to get all the recipes
 
-app.get("/", (req, res) => {
+app.get("/MyRecipes", (req, res) => {
   console.log(MyRecipes);
   res.json(MyRecipes);
 });
