@@ -1,13 +1,20 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 6000;
 const fileSystem = require("fs");
 const axios = require("axios");
 const MyRecipes = require("./MyRecipes.json");
+const { pool } = require("pg");
+const cors = require("cors");
 
+// const pool = new pool ([
+//   user: 'dbuser'
+// ])
 
 //we pass a function with 2 arguments req and response
 //Here we define another route to get all the recipes
+
+app.use(cors());
 
 app.get("/MyRecipes", (req, res) => {
   console.log(MyRecipes);
